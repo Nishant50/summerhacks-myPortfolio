@@ -1,8 +1,81 @@
-/* 
+/*
     Summer Hacks
     SOA Code Room
     Project Template
     Use this template: https://github.com/SOACodeRoom/summerhacks-projectName/generate
     style.css: You will write your css code for your portfolio website here. You can add other css files too but it must be under "css" folder.
 
-*/
+*/.navbar{
+  padding-bottom: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family: "Montserrat-Light";
+
+}
+/*container*/
+body{
+  margin:0;
+
+  font-family: 'Merriweather',sans-serif;
+}
+h1{
+  margin-top: 0;
+  font-family: 'Sacramento',cursive;
+}
+.top-container{
+  background-color: #007580;
+  position: relative;
+  padding-top: 100px;
+    text-align: center;
+}
+.middle-container{
+  background-color: #487e95;
+  height: 500px;
+
+}
+.skill{
+  width: 200px;
+  height: 200px;
+}
+
+.top-cloud{
+  position:absolute;
+  right:300px;
+  top:50px;
+}
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  bottom:300px;
+}
+
+#title{
+  background-color:#007580 ;
+}
+.colored-section{
+  background-color: #fed049;
+}
+
+
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+.bottom-container{
+  background-color: #a2d5f2;
+  width: 100%;
+  height: 200px;
+}
